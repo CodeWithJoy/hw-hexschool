@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>程式導師實驗計畫第二期報名表單</title>
+    <link rel="Form Icon" type="image/x-icon" href="./Google-Forms-icon.png" />
+    <style>
+        body {
+            margin: 0px;
+            background-color: #F8EDE5;
+        }
+
+        h1 {
+            margin: 0px;
+        }
+
+
+        .upPicture {
+            height: 200px;
+            background: url("./week4.jpg");
+            background-size: cover;
+        }
+
+        .container {
+            background-color: white;
+            margin: auto;
+            padding: 10px;
+            position: relative;
+            top: -70px;
+            width: 480px;
+            box-shadow: 0px 0px 8px 1px rgba(90, 90, 99, 0.5);
+            border-top: solid 4px orange;
+        }
+
+        .star::after {
+            content: "*";
+            color: red;
+        }
+
+        .mainQ {
+            height: 145px;
+            margin: 1px 5px;
+            padding: 4px;
+        }
+
+        .requireWarn {
+            margin-top: 1px;
+            visibility: hidden;
+            font-size: 12px;
+        }
+
+        input {
+            line-height: 24px;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: gray solid 1px;
+            outline: none;
+        }
+
+        .submitBtn {
+            position: relative;
+            top: 5px;
+            left: 4px;
+            height: 37px;
+            width: 88px;
+            border-radius: 4px;
+            font-size: 14px;
+            color: white;
+            background-color: #1973E8;
+
+        }
+
+        .q1 {
+            width: 120px;
+            text-align: center;
+            background-color: #5E5E5E;
+            color: white;
+            font-size: 14px;
+            position: absolute;
+            left: 40px;
+            visibility: visible;
+            transition: all 0.2s linear;
+            bottom: 9px;
+        }
+
+        .q2 {
+            width: 120px;
+            text-align: center;
+            background-color: #5E5E5E;
+            color: white;
+            font-size: 14px;
+            position: absolute;
+            visibility: visible;
+            position: absolute;
+            visibility: hidden;
+            left: 20px;
+            bottom: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="upPicture">
+    </div>
+    <div class="container slider">
+        <h1>程式導師實驗計畫第二期報名表單</h1>
+        <p style="font-size: 12px; line-height:24px;">詳情請參考：<a target="_blank"
+                href="https://medium.com/hulis-blog/mentor-program-s2-f876c4e13d3b">https://medium.com/hulis-blog/mentor-program-s2-f876c4e13d3b</a>
+            填完之後請務必按照文章內的說明再寄信給我，才算報名成功喔</p>
+
+        <div style="color: red">*必填</div>
+
+        <form action="">
+            <div class="mainQ ">
+                <p class="star question">電子郵件地址</p>
+                <p class="example"></p>
+                <input type="email" class="Q1" placeholder="你的電子郵件">
+                <p class="requireWarn">這是必填問題</p>
+            </div>
+            <div class="mainQ ">
+                <p class="star question">暱稱</p>
+                <p class="example">該如何稱呼你</p>
+                <input type="email" class="Q2" placeholder="您的回答">
+                <p class="requireWarn">這是必填問題</p>
+            </div>
+            <div class="mainQ">
+                <p class="star question">報名類型</p>
+                <input class="Q3" type="radio" name="regisType" value="starter">從零到一基礎班（一個月後開始收保證金
+                3000，淘汰不退還，結業後兩個月內找到工作付一個月半薪水，沒工作不用付） <br>
+                <input type="radio" name="regisType" value="engineer">在職工程師加強班（一個月後開始收保證金 3000，兩個月時收學費 30000，被淘汰不退還）
+                <br>
+            </div>
+            <div class="mainQ">
+                <p class="star question">現在的職業</p>
+                <p class="example">範例：學生、前端工程師、待業中、業務</p>
+                <input type="email" class="Q4" placeholder="您的回答">
+                <p class="requireWarn">這是必填問題</p>
+            </div>
+            <div class="mainQ">
+                <p class="star question">是否有程式相關背景？</p>
+                <p class="example">範例：無、高中時候學過C++、學過一點網頁前端、目前在資策會上課...</p>
+                <input type="email" style="width: 80%" class="Q5" placeholder="您的回答">
+                <p class="requireWarn">這是必填問題</p>
+            </div>
+            <div class="mainQ">
+                <p class="question">其他</p>
+                <p class="example">任何你想說的</p>
+                <input type="email" style="width: 80%" placeholder="您的回答">
+                <p class="requireWarn"></p>
+            </div>
+
+
+            <input type="submit" class="submitBtn" value="提交" />
+        </form>
+        <p style="color: gray; font-size: 10px;"> 請勿利用 Google 表單送出密碼。</p>
+    </div>
+
+    <div
+        style="color: gray; font-size: 14px; margin: auto; width: 480px; text-align: center; position: relative; top: -30px">
+        Google 並未認可或建立這項內容。 <a href="">檢舉濫用情形</a> -
+        <a href="">服務條款</a></div>
+    <div
+        style="color: gray; font-size: 14px; margin: auto; margin-bottom: 100px; width: 480px; text-align: center; padding-top:10px">
+        Google
+        表單
+    </div>
+    <div class='qq' style="position: fixed; left:5px; bottom: 5px">
+        <div id="questionBtn" style="color: #F3F0E7">向Google回報問題</div>
+        <img class="questionImg" src="./question-btn.png" alt="question button" style="width:20px; height: 20px;" />
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            for (let i = 1; i <= 5; i++) {
+                document.querySelector('.Q' + i).addEventListener('blur', function () {
+                    if (document.querySelector('.Q' + i).value !== "") {
+                        console.log('ok');
+                        document.querySelector('.Q' + i).parentNode.removeAttribute("style", "background-color:#FCE8E6;");
+                        document.querySelector('.Q' + i).nextElementSibling.setAttribute("style", "visibility: hidden");
+                    } else {
+                        document.querySelector('.Q' + i).parentNode.setAttribute("style", "background-color:#FCE8E6;"); //增加inline元素
+                        document.querySelector('.Q' + i).nextElementSibling.setAttribute("style", "visibility: visible; color: red");
+                    }
+                })
+            }
+
+            document.querySelector('.qq').addEventListener('mouseover', function () {
+                document.querySelector('#questionBtn').setAttribute("class", "q1")
+            })
+            document.querySelector('.qq').addEventListener('mouseleave', function () {
+                document.querySelector('#questionBtn').setAttribute("class", "q2")
+                //非常重要的一點！！！父元素監聽 or id綁定元素！
+                //由於id是唯一值，所以可以死死綁在EventLister上 ('#questionBtn')
+                //但如果你是用('.questionBtn')，每次新增or移除class原來的EventListener就覺得不是同一個東東，所以綁定會失效
+            })
+
+        })//結尾
+    </script>
+</body>
+
+
+</html>
